@@ -20,12 +20,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
-
 ## :rocket: Sobre o desafio
 
 Nesse desafio, o objetivo era criar uma aplicação para treinar o que aprendi até agora nas primeiras aulas sobre Node.js!
@@ -34,7 +28,7 @@ Essa será uma aplicação para armazenar repositórios do seu portfólio, que i
 
 ### Rotas da aplicação
 
-Para esse desafio eu recebi um template de exemplo com rotas pré deifidas, porém sem código de execução, meu objetivo era desenvolver o código para atingir os objetivos de cada rota.
+Para esse desafio eu recebi um template de exemplo com rotas pré definidas, porém sem código de execução, meu objetivo era desenvolver o código para atingir os objetivos de cada rota.
 
 - **`POST /repositories`**: A rota deve receber `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
 
